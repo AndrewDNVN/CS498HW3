@@ -6,7 +6,5 @@ Most of the code used is from the provided files; with modifications.
 	- Make run {Included and working}
 	- Make clean
 
-The -c is used to link the files together and is needed.
-
 # Issues:
 	- None.
