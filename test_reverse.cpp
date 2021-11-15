@@ -32,8 +32,8 @@ TEST_CASE( "Simple tests:" "[Small]" ) {
     REQUIRE( reversed("123") == "321");
 }
 
-TEST_CASE( "Simple failing tests:" "[Fail]" ) {
-    REQUIRE( reversed("abc") == "abc");
+
+
 
     // Another point of intrest with catch2
     // is when in a test case when one Require 
@@ -43,8 +43,8 @@ TEST_CASE( "Simple failing tests:" "[Fail]" ) {
     // Or at least acknowledge that the 
     // other states in the block.
 
-    REQUIRE( reversed("123") == "123");
-}
+
+
 
 
 TEST_CASE( "Even number tests:" ) {
